@@ -24,23 +24,23 @@
 
         <div class="row" id="menu-content">
           <div id="welcome">
-            <p> Ultimos Registros Policiales</p>
+            <p> Last Police Records</p>
             <table class="centered">
                <thead>
                  <tr>
-                   <th>FECHA</th>
-                   <th>CODIGO SISTEMA</th>
-                   <th>INSTITUCIÓN</th>
-                   <th>CARGO Y DESCRIPCIÓN</th>
-                   <th>SENTENCIA</th>
+                   <th>DATE</th>
+                   <th>SYSTEM CODE</th>
+                   <th>INSTITUTION</th>
+                   <th>CHARGE AND DESCRIPTION</th>
+                   <th>SENTENCE</th>
                  </tr>
                </thead>
                <tbody>
                </tbody>
              </table>
 
-            <button class="btn-large btn-flat waves-effect waves-light col s12" id="menu-search">Buscar Persona</button>
-            <button class="btn-large btn-flat waves-effect waves-light col s12" id="menu-add">Agregar Datos</button>
+            <button class="btn-large btn-flat waves-effect waves-light col s12" id="menu-search">Search Person</button>
+            <button class="btn-large btn-flat waves-effect waves-light col s12" id="menu-add">Add Data</button>
          
           </div>
 
@@ -49,37 +49,37 @@
               <div class="row">
                 <div class="input-field col s6">
                   <input id="firstname-search" type="text" class="validate">
-                  <label for="firstname-search">Nombre</label>
+                  <label for="firstname-search">First Name</label>
                 </div>
                 <div class="input-field col s6">
                   <input id="lastname-search" type="text" class="validate">
-                  <label for="lastname-search">Apellido</label>
+                  <label for="lastname-search">Last Name</label>
                 </div>
                 <div class="input-field col s6">
                   <input id="dob-search" type="text" class="validate">
-                  <label for="dob-search">Fecha de Nacimiento</label>
+                  <label for="dob-search">Date Of Birth</label>
                 </div>
                 <div class="input-field col s6">
                   <input id="offense-search" type="text" class="validate">
-                  <label for="offense-search">Codigo Sistema</label>
+                  <label for="offense-search">System Code</label>
                 </div>
               </div>
             </form>
-            <button class="btn-large btn-flat  waves-effect waves-light col s12" id="submit-search">Buscar Persona</button>
-            <button class="btn-large btn-flat waves-effect waves-light col s12 back">Regresar</button>
+            <button class="btn-large btn-flat  waves-effect waves-light col s12" id="submit-search">Search Person</button>
+            <button class="btn-large btn-flat waves-effect waves-light col s12 back">Return</button>
           </div>
           <div id="search-result">
             <table class="centered result">
                <thead>
                  <tr>
-                   <th>Nombre</th>
-                   <th>Apellido</th>
-                   <th>Fecha de Nacimiento </th>
+                   <th>First Name</th>
+                   <th>Last Name</th>
+                   <th>Date Of Birth </th>
 
                  </tr>
                </thead>
                <tbody>
-                <button class="btn-large btn-flat waves-effect waves-light col s12 back"> Regresar </button>
+                <button class="btn-large btn-flat waves-effect waves-light col s12 back"> Return </button>
                  <br />
                </tbody>
 
@@ -96,35 +96,35 @@
               <div class="row">
                 <div class="input-field col s6">
                   <input id="firstname-add" type="text" class="validate" required placeholder="John">
-                  <label for="firstname-add">NOMBRE</label>
+                  <label for="firstname-add">First Name</label>
                 </div>
                 <div class="input-field col s6">
                   <input id="lastname-add" type="text" class="validate" required placeholder="Doe">
-                  <label for="lastname-add">APELLIDO</label>
+                  <label for="lastname-add">Last Name</label>
                 </div>
                 <div class="input-field col s6">
                   <input id="dob-add" type="text" class="validate" required placeholder="LA FECHA NACIMIENTO  EXACTA DE LA PERSONA(PJ)">
-                  <label for="dob-add">NACIMIENTO</label>
+                  <label for="dob-add">Date Of Birth</label>
                 </div>
                 <div class="input-field col s6">
-                  <input id="charge-add" type="text" class="validate" required placeholder="ASESINATO/ROBO MANO ARMADA">
-                  <label for="charge-add">CARGO</label>
+                  <input id="charge-add" type="text" class="validate" required placeholder="MURDER/THEFT">
+                  <label for="charge-add">Charge</label>
                 </div>
                 <div class="input-field col s6">
-                  <input id="term-add" type="text" class="validate" required placeholder="AÑO/MES/DIAS">
-                  <label for="term-add">SENTENCIA( LOS DIAS/MESES DADO AL CRIMINAL EJEMPLO : 6 MESES)</label>
+                  <input id="term-add" type="text" class="validate" required placeholder="YEAR / MONTH / DAYS">
+                  <label for="term-add">Sentence (DAYS / MONTHS GIVEN TO THE CRIMINAL EXAMPLE: 6 MONTHS)</label>
                 </div>
                 <div class="input-field col s6">
-                  <input id="date-add" type="text" class="validate" required value="HOY">
-                  <label for="date-add">FECHA</label>
+                  <input id="date-add" type="text" class="validate" required value="TODAY">
+                  <label for="date-add">DATE</label>
                 </div>
                 <div class="input-field col s12">
-                  <textarea id="description-add" class="materialize-textarea" required placeholder=" EJEMP: Se le encontro con 2 paquetes de droga."></textarea>
-                  <label for="description-add">DESCRIPCIÓN</label>
+                  <textarea id="description-add" class="materialize-textarea" required placeholder=" EXAMPLE: He was found with 2 packages of drugs."></textarea>
+                  <label for="description-add">Description Of Incident</label>
                 </div>
               </div>
-              <button class="btn-large btn-flat waves-effect waves-light col s12" id="submit-add">AGREGAR</button>
-              <button class="btn-large btn-flat waves-effect waves-light col s12 back">REGRESAR</button>
+              <button class="btn-large btn-flat waves-effect waves-light col s12" id="submit-add">Submit</button>
+              <button class="btn-large btn-flat waves-effect waves-light col s12 back">Return</button>
             </form>
           </div>
         </div>
@@ -142,7 +142,7 @@
                 
                   <span style="color:WHITE">  
 
-                <p style="font-size:14px" >ARCHIVO</p></SPAN>
+                <p style="font-size:14px" >ARCHIVE</p></SPAN>
                 <span style="color:#ffd600"> 
                 <p  style="font-size:14px" >#1234567-890</p></SPAN>
               </li>
@@ -150,7 +150,7 @@
                <br/>
               <li>
               <span style="color:WHITE">    
-                <p style="font-size:14px" >ID REGISTRO</p></SPAN>
+                <p style="font-size:14px" >REGISTRATION ID</p></SPAN>
 
                  
                 <p style="font-size:14px" ><a href="#!" style="color:#ffd600" class="r-recordid">XXXXXXXX</a></p>
@@ -184,36 +184,36 @@
               </li>
               <li class="divided">
                 <div class="left">
-                  <p>GENERO</p>
+                  <p>GENDER</p>
                   <p class="r-sex" style="color:#ffd600" >none</p>
                 </div>
                 <div class="right">
-                  <p>CUIDADANO   </p>
+                  <p>CITIZEN   </p>
                   <p> <span style="color:#ffd600">Si</span></p>
                 </div>
               </li>
               <li class="divided">
                 <div class="left">
-                  <p>ALTURA</p>
+                  <p>HEIGHT</p>
                   <p style="color:#ffd600;font-weight:bold" class="r-height"><strong>000cm</strong></p>
                 </div>
                 <div class="right">
-                  <p>PESO</p>
+                  <p>WEIGHT</p>
                   <p style="color:#ffd600" class="r-weight">00kg</p>
                 </div>
               </li>
               <li class="divided">
                 <div class="left">
-                  <p>COLOR OJOS</p>
+                  <p>EYE COLOR</p>
                   <p class="r-eyecolor" style="color:#ffd600"  >none</p>
                 </div>
                 <div class="right">
-                  <p>COLOR PELO</p>
+                  <p>HAIR COLOR</p>
                   <p class="r-haircolor" style="color:#ffd600"  >none</p>
                 </div>
               </li>
               <li id="r-dob">
-                <p>NACIMIENTO</p>
+                <p>DOB</p>
                 <span style="color:#ffd600"> 
                 <p class="square r-dob-year"><i>Y</i>00</p>
                 <p class="square r-dob-month"><i>M</i>00</p>
@@ -227,15 +227,15 @@
             <img src="assets/images/male.png" alt="avatar" draggable="false" class="avatar"/>
           </div>
           <div id="records">
-            <h1 align="center">Informacion Civil , Arrestos y Sentencias </h1>
+            <h1 align="center">Civil Information, Arrests and Sentences </h1>
             <table class="centered">
                <thead>
                  <tr>
-                   <th>FECHA</th>
-                   <th>CODIGO SISTEMA</th>
-                   <th>INSTITUCION</th>
-                   <th>CARGO Y DESCRIPCION</th>
-                   <th>SENTENCIA</th>
+                   <th>DATE</th>
+                   <th>SYSTEM CODE</th>
+                   <th>INSTITUTION</th>
+                   <th>DESCRIPTION OF CHARGES</th>
+                   <th>SENTENCE</th>
                  </tr>
                </thead>
                <tbody>
@@ -244,7 +244,7 @@
 
              </table>
 
-                                                <button class="btn-large btn-flat waves-effect waves-light col s12 back">REGRESAR</button>
+                                                <button class="btn-large btn-flat waves-effect waves-light col s12 back">RETURN</button>
 
           </div>
          
@@ -263,13 +263,13 @@
               <li>
 
                 <span style="color:#fff">
-                <p style="font-size:13px"> NOMBRE</p> </span>
+                <p style="font-size:13px"> NAME</p> </span>
                 <p  style="font-size:12px" class="r-name">&nbsp;  XXX </p>
               </li>
                <br/>
               <li>
                  <span style="color:#fff">
-                <p style="font-size:13px">NACIMIENTO</p> </span>
+                <p style="font-size:13px">DOB</p> </span>
                 <p  style="font-size:12px"  ><a href="#!" style="color:#ffd600" class="dob r-dob">XXX </a></p>
               </li>
             </ul>
@@ -280,17 +280,17 @@
             <ul>
               <li class="divided">
                 <div class="ce">
-                  <p  style="font-size:11px" >FECHA</p>
+                  <p  style="font-size:11px" >DATE</p>
                  <span style="color:#ffd600"> <p style="font-size:14px" class="r-date">XXXX-XX-XX</p></span>
                 </div>
                 <div class="right">
-                  <p  style="font-size:11px" > CARGO </p>
+                  <p  style="font-size:11px" > POSITION </p>
 
                  <span style="color:#ffd600"> <p style="font-size:11px" class="r-charge">XX</p></span>
                 </div>
               </li>
               <li id="r-offense">
-                <p style="font-size:11px" >CODIGO SISTEMA</p>
+                <p style="font-size:11px" >SYSTEM CODE</p>
                  <span style="color:#ffd600">
                 <p style="font-size:12px" class="square">X</p>
                 <p style="font-size:12px" class="square">-</p>
@@ -299,7 +299,7 @@
                 <p style="font-size:12px" class="square">X</p></span>
               </li>
               <li id="r-term">
-                <p style="font-size:11px" >SENTEN</p>
+                <p style="font-size:11px" >SENTENCE</p>
                  <span style="color:#ffd600">
                 <p   class="square r-year"><i>Y</i>X</p>
                 <p   class="square r-month"><i>M</i>X</p>
@@ -308,7 +308,7 @@
               </li>
               <li class="info">
 
-               <span style="color:#ffd600"> <p style="font-size:12px">DECLARACION </p></span>
+               <span style="color:#ffd600"> <p style="font-size:12px">STATEMENT </p></span>
                 <textarea class="r-description"></textarea>
               </li>
 
@@ -322,22 +322,22 @@
           <div id="signature">
             <div class="signature-part">
               <p class="r-offense">X-XXX</p>
-              <p>CODIGO SISTEMA</p>
+              <p>SYSTEM CODE</p>
             </div>
             <div class="signature-part">
               <p class="r-date">XX</p>
-             <p>FECHA DE REGISTRO</p>
+             <p>REGISTRATION DATE</p>
             </div>
             <div class="signature-part">
               <p id="the-signature">X</p>
-              <p>FIRMA DEL OFICIAL</p>
+              <p>OFFICIAL SIGNATURE</p>
             </div>
           </div>
-          <button class="btn-large btn-flat waves-effect waves-light" id="submit-update">CAMBIAR INFORMACION</button>
+          <button class="btn-large btn-flat waves-effect waves-light" id="submit-update">CHANGE INFORMATION</button>
         <!--   <button class="btn-large btn-flat waves-effect waves-light" id="submit-delete">BORRAR CARGOS</button>--> 
-                   <button class="btn-large btn-flat waves-effect waves-light col s12 back">REGRESAR</button>
+                   <button class="btn-large btn-flat waves-effect waves-light col s12 back">RETURN</button>
 
-          <button class="btn-large btn-flat waves-effect waves-light large" id="submit-classified">CLASIFICAR HISTORIAL</button>
+          <button class="btn-large btn-flat waves-effect waves-light large" id="submit-classified">CLASSIFY HISTORY</button>
 
 
       </div>
